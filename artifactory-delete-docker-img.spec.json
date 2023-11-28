@@ -1,0 +1,28 @@
+{
+  "files":[{
+      "aql": {
+          "items.find": {
+                      "$and":[{
+                          "repo": {"$match":"repo-name"},
+                          "$or": [{
+                              "path": "sub-folder",
+                              "path": "",
+                              "path": "",
+                              "path": "",
+                              "path": "",
+                              "path": "",
+                              "path": "",
+                              "path": "",
+                              "path": "",
+                              "path": "",
+                              "path": "",
+                              "path": "",
+                              "path": ""
+                          }],
+                          "name": {"$match":"*image-tag*"},
+                          "type": "folder"
+                      }]
+                  }
+      }
+  }]
+}
